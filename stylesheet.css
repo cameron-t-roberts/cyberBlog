@@ -1,0 +1,45 @@
+/*This section is for the nav bar*/
+nav {
+    background-color: #262f36; /*background color*/
+    padding: 10px; /*spacing*/
+    border: 4px solid #000000; /*border color*/
+}
+
+body {
+    background-color: #262f36; /*background color*/
+}
+
+/* Styling for the unordered list (nav items) */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Box styling */
+.box {
+    border: 4px solid #000000; /* This is the color of the box border */
+    padding: 10px 20px; /* This keeps spacing between everything */
+    text-align: center; /* This is where the text is displayed */
+    color: #97a3ab; /* font color */
+    margin: 10px; /* Spacing between boxes to avoid border overlap */
+}
+
+.box-1 {
+    border-color: #262f36; /* Specific border color for box-1 */
+}
+
+/* Link styling */
+a {
+    color: #97a3ab;
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+    text-align: center;
+}
+
+/* Link hover effect */
+a:hover {
+    color: #ffffff; /* Change color on hover */
+}
